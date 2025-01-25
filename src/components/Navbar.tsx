@@ -16,7 +16,7 @@ const Navbar = () => {
 
    }
 
-  console.log("client session",session);
+  console.log("client side session",session);
   return (
     <div className="navbar bg-base-100">
     <div className="navbar-start">
@@ -47,6 +47,7 @@ const Navbar = () => {
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
       <li><Link href={"/about"}>About</Link></li>
+      <li><Link href={"/dashboard"}>Dashboard</Link></li>
       </ul>
     </div>
     <div className="navbar-end">
